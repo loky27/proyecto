@@ -1,4 +1,4 @@
-import { Provider } from "react-redux";
+
 import { auth, firebase, storage, db } from "../firebase";
 
 

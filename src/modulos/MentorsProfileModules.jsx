@@ -40,7 +40,7 @@ const MentorsProfileModule = ({ mentorP }) => {
                                         <i className="fas fa-ellipsis-h profile-icons icons-size"></i>
                                     </button>
                                     <ul id="dropdown" className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li><button className="dropdown-item" >Reportar</button></li>
+                                        <li>Reportar</li>
                                     </ul>
                                 </div>
                                 <div className="d-flex justify-content-start mt-3">
