@@ -15,6 +15,7 @@ const ContactForm = () => {
                 email:emaill
             }
             );
+            e.preventdefault()
         }
 
     return (
