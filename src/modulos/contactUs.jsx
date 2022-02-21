@@ -7,6 +7,7 @@ const ContactForm = () => {
         const [message, setmessage] = useState();
         const [lastName, setlastName] = useState();
         const handleSubmit= (e) => {
+            
         sendMail(
             {
                 nane:name,
@@ -15,7 +16,12 @@ const ContactForm = () => {
                 email:emaill
             }
             );
-            e.preventdefault()
+            setname('')
+            setlastName('')
+            setmessage('')
+            setmessage('')
+            setemaill('')
+        e.preventDefault();
         }
 
     return (
